@@ -42,7 +42,7 @@ namespace ExtraRoles
                             }
                             if (reportMsg.IndexOf("who", StringComparison.OrdinalIgnoreCase) >= 0)
                             {
-                                // Really did not understand this
+                                // Really did not understand this yup
                                 DestroyableSingleton<Telemetry>.Instance.SendWho();
                             }
                         }
